@@ -1,0 +1,105 @@
+﻿company,stock_code,question_id,source_document_type,validation_type,expected_subquestions,actual_subquestions,status,details
+中文传媒,600373,600373_2024_q01,reply,subquestion_count_alignment,3,3,pass,
+中文传媒,600373,600373_2024_q02,reply,subquestion_count_alignment,3,3,pass,
+中文传媒,600373,600373_2024_q03,reply,subquestion_count_alignment,2,2,pass,
+中文传媒,600373,600373_2024_q04,reply,subquestion_count_alignment,4,4,pass,
+中文传媒,600373,600373_2024_q05,reply,subquestion_count_alignment,4,4,pass,
+中文传媒,600373,600373_2024_q06,reply,subquestion_count_alignment,4,4,pass,
+中文传媒,600373,600373_2024_q07,reply,subquestion_count_alignment,3,3,pass,
+中文传媒,600373,600373_2024_q08,reply,subquestion_count_alignment,4,4,pass,
+四川金顶,600678,600678_2024_q01,reply,subquestion_count_alignment,3,3,pass,
+四川金顶,600678,600678_2024_q02,reply,subquestion_count_alignment,6,6,pass,
+四川金顶,600678,600678_2024_q03,reply,subquestion_count_alignment,3,3,pass,
+四川金顶,600678,600678_2024_q04,reply,subquestion_count_alignment,2,2,pass,
+南京新百,600682,600682_2024_q01,inquiry,subquestion_count_alignment,3,3,pass,
+南京新百,600682,600682_2024_q01,inquiry,generated_missing_subquestions,3,3,generated,parent had no raw child records; generated from parent request text
+南京新百,600682,600682_2024_q02,inquiry,subquestion_count_alignment,2,2,pass,
+南京新百,600682,600682_2024_q02,inquiry,generated_missing_subquestions,2,2,generated,parent had no raw child records; generated from parent request text
+南京新百,600682,600682_2024_q03,inquiry,subquestion_count_alignment,2,2,pass,
+南京新百,600682,600682_2024_q03,inquiry,generated_missing_subquestions,2,2,generated,parent had no raw child records; generated from parent request text
+南京新百,600682,600682_2024_q04,inquiry,subquestion_count_alignment,2,2,pass,
+南京新百,600682,600682_2024_q04,inquiry,generated_missing_subquestions,2,2,generated,parent had no raw child records; generated from parent request text
+南京新百,600682,600682_2024_q05,inquiry,subquestion_count_alignment,>=1,1,pass,
+南京新百,600682,600682_2024_q05,inquiry,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+南京新百,600682,600682_2024_q06,inquiry,subquestion_count_alignment,>=1,1,pass,
+南京新百,600682,600682_2024_q06,inquiry,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+南京新百,600682,600682_2024_q07,inquiry,subquestion_count_alignment,>=1,1,pass,
+南京新百,600682,600682_2024_q07,inquiry,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+上海物贸,600822,600822_2024_q01,reply,subquestion_count_alignment,2,2,pass,
+上海物贸,600822,600822_2024_q02,reply,subquestion_count_alignment,2,2,pass,
+上海物贸,600822,600822_2024_q03,reply,subquestion_count_alignment,3,3,pass,
+上海物贸,600822,600822_2024_q04,reply,subquestion_count_alignment,3,3,pass,
+上海物贸,600822,600822_2024_q05,reply,subquestion_count_alignment,2,2,pass,
+风语筑,603466,603466_2024_q01,reply,subquestion_count_alignment,3,3,pass,
+风语筑,603466,603466_2024_q02,reply,subquestion_count_alignment,3,3,pass,
+风语筑,603466,603466_2024_q03,reply,subquestion_count_alignment,2,2,pass,
+风语筑,603466,603466_2024_q04,reply,subquestion_count_alignment,2,2,pass,
+风语筑,603466,603466_2024_q05,reply,subquestion_count_alignment,>=1,1,pass,
+风语筑,603466,603466_2024_q05,reply,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+利通电子,603629,603629_2024_q01,supporting,subquestion_count_alignment,4,4,pass,
+利通电子,603629,603629_2024_q01,supporting,supporting_moved_to_auxiliary,,,moved,supporting-source questions excluded from formal gold data
+利通电子,603629,603629_2024_q02,supporting,subquestion_count_alignment,3,3,pass,
+利通电子,603629,603629_2024_q02,supporting,supporting_moved_to_auxiliary,,,moved,supporting-source questions excluded from formal gold data
+利通电子,603629,603629_2024_q03,supporting,subquestion_count_alignment,3,3,pass,
+利通电子,603629,603629_2024_q03,supporting,supporting_moved_to_auxiliary,,,moved,supporting-source questions excluded from formal gold data
+金鸿顺,603922,603922_2024_q01,reply,subquestion_count_alignment,3,3,pass,
+金鸿顺,603922,603922_2024_q02,reply,subquestion_count_alignment,2,2,pass,
+华熙生物,688363,688363_2024_q01,reply,subquestion_count_alignment,4,4,pass,
+华熙生物,688363,688363_2024_q02,reply,subquestion_count_alignment,2,2,pass,
+华熙生物,688363,688363_2024_q03,reply,subquestion_count_alignment,2,2,pass,
+华熙生物,688363,688363_2024_q04,reply,subquestion_count_alignment,>=1,1,pass,
+华熙生物,688363,688363_2024_q04,reply,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+杭州柯林,688611,688611_2024_q01,reply,subquestion_count_alignment,3,3,pass,
+杭州柯林,688611,688611_2024_q02,reply,subquestion_count_alignment,3,3,pass,
+杭州柯林,688611,688611_2024_q03,reply,subquestion_count_alignment,3,3,pass,
+杭州柯林,688611,688611_2024_q04,reply,subquestion_count_alignment,2,2,pass,
+迈信林,688685,688685_2024_q01,reply,subquestion_count_alignment,2,2,pass,
+迈信林,688685,688685_2024_q02,reply,subquestion_count_alignment,3,3,pass,
+迈信林,688685,688685_2024_q03,reply,subquestion_count_alignment,2,2,pass,
+迈信林,688685,688685_2024_q04,reply,subquestion_count_alignment,>=1,1,pass,
+迈信林,688685,688685_2024_q04,reply,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+迈信林,688685,688685_2024_q05,reply,subquestion_count_alignment,2,2,pass,
+迈信林,688685,688685_2024_q06,reply,subquestion_count_alignment,2,2,pass,
+迈信林,688685,688685_2024_q07,reply,subquestion_count_alignment,>=1,1,pass,
+迈信林,688685,688685_2024_q07,reply,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+迈信林,688685,688685_2024_q08,reply,subquestion_count_alignment,>=1,1,pass,
+迈信林,688685,688685_2024_q08,reply,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+倍轻松,688793,688793_2024_q01,reply,subquestion_count_alignment,3,3,pass,
+倍轻松,688793,688793_2024_q02,reply,subquestion_count_alignment,3,3,pass,
+倍轻松,688793,688793_2024_q03,reply,subquestion_count_alignment,3,3,pass,
+倍轻松,688793,688793_2024_q04,reply,subquestion_count_alignment,3,3,pass,
+倍轻松,688793,688793_2024_q05,reply,subquestion_count_alignment,3,3,pass,
+倍轻松,688793,688793_2024_q06,reply,subquestion_count_alignment,2,2,pass,
+倍轻松,688793,688793_2024_q07,reply,subquestion_count_alignment,3,3,pass,
+倍轻松,688793,688793_2024_q08,reply,subquestion_count_alignment,3,3,pass,
+倍轻松,688793,688793_2024_q09,reply,subquestion_count_alignment,2,2,pass,
+倍轻松,688793,688793_2024_q10,reply,subquestion_count_alignment,2,2,pass,
+康普化学,834033,834033_2024_q01,reply,subquestion_count_alignment,3,3,pass,
+康普化学,834033,834033_2024_q02,reply,subquestion_count_alignment,2,2,pass,
+康普化学,834033,834033_2024_q03,reply,subquestion_count_alignment,3,3,pass,
+康普化学,834033,834033_2024_q04,reply,subquestion_count_alignment,3,3,pass,
+康普化学,834033,834033_2024_q05,reply,subquestion_count_alignment,>=1,1,pass,
+康普化学,834033,834033_2024_q05,reply,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+康普化学,834033,834033_2024_q06,reply,subquestion_count_alignment,2,2,pass,
+康普化学,834033,834033_2024_q07,reply,subquestion_count_alignment,>=1,1,pass,
+康普化学,834033,834033_2024_q07,reply,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+五新隧装,835174,835174_2024_q01,supporting,subquestion_count_alignment,4,4,pass,
+五新隧装,835174,835174_2024_q01,supporting,supporting_moved_to_auxiliary,,,moved,supporting-source questions excluded from formal gold data
+五新隧装,835174,835174_2024_q02,supporting,subquestion_count_alignment,2,2,pass,
+五新隧装,835174,835174_2024_q02,supporting,supporting_moved_to_auxiliary,,,moved,supporting-source questions excluded from formal gold data
+五新隧装,835174,835174_2024_q03,supporting,subquestion_count_alignment,2,2,pass,
+五新隧装,835174,835174_2024_q03,supporting,supporting_moved_to_auxiliary,,,moved,supporting-source questions excluded from formal gold data
+五新隧装,835174,835174_2024_q04,supporting,subquestion_count_alignment,>=1,1,pass,
+五新隧装,835174,835174_2024_q04,supporting,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+五新隧装,835174,835174_2024_q04,supporting,supporting_moved_to_auxiliary,,,moved,supporting-source questions excluded from formal gold data
+五新隧装,835174,835174_2024_q05,supporting,subquestion_count_alignment,>=1,3,pass,
+五新隧装,835174,835174_2024_q05,supporting,generated_missing_subquestions,>=1,3,generated,parent had no raw child records; generated from parent request text
+五新隧装,835174,835174_2024_q05,supporting,supporting_moved_to_auxiliary,,,moved,supporting-source questions excluded from formal gold data
+五新隧装,835174,835174_2024_q06,supporting,subquestion_count_alignment,>=1,1,pass,
+五新隧装,835174,835174_2024_q06,supporting,generated_missing_subquestions,>=1,1,generated,parent had no raw child records; generated from parent request text
+五新隧装,835174,835174_2024_q06,supporting,supporting_moved_to_auxiliary,,,moved,supporting-source questions excluded from formal gold data
+利通电子,603629,603629_2024_q01,supporting,auxiliary_incomplete_question,,,warn,question contains omission marker or obvious missing content
+利通电子,603629,603629_2024_q01_sub03,supporting,auxiliary_question_too_short,,,warn,subquestion text shorter than 8 chars
+利通电子,603629,603629_2024_q01_sub03,supporting,auxiliary_incomplete_question,,,warn,question contains omission marker or obvious missing content
+利通电子,603629,603629_2024_q01_sub04,supporting,auxiliary_question_too_short,,,warn,subquestion text shorter than 8 chars
+利通电子,603629,603629_2024_q01_sub04,supporting,auxiliary_incomplete_question,,,warn,question contains omission marker or obvious missing content

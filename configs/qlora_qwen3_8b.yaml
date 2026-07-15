@@ -1,0 +1,37 @@
+model:
+  model_name_or_path: models/Qwen3-8B
+  load_in_4bit: true
+  bnb_4bit_quant_type: nf4
+  bnb_4bit_use_double_quant: true
+  bnb_4bit_compute_dtype: bfloat16
+
+data:
+  train_path: data/training/train.jsonl
+  validation_path: data/training/validation.jsonl
+  test_path: data/training/test.jsonl
+
+training:
+  seed: 42
+  epochs: 3
+  learning_rate: 2.0e-4
+  batch_size: 1
+  gradient_accumulation_steps: 16
+  # 实测 157 条样本 token 长度 max=2242，2048 会截断 42 条，故放宽
+  max_length: 2560
+  warmup_ratio: 0.03
+  lr_scheduler_type: cosine
+  logging_steps: 1
+  output_dir: outputs
+
+lora:
+  rank: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
