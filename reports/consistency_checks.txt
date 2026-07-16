@@ -1,0 +1,5 @@
+zero_shot: n=23, ids match test set, references consistent, no gold text in input
+base_evidence: n=23, ids match test set, references consistent, no gold text in input
+qlora_no_evidence: n=23, ids match test set, references consistent, no gold text in input
+full_model: n=23, ids match test set, references consistent, no gold text in input
+wo_company_year: n=23, ids match test set, references consistent, no gold text in input

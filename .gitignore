@@ -33,6 +33,13 @@ tensorboard/
 01_metadata/
 02_raw_pdf/
 
+# Leakage-free rebuilt training data (contains annual-report chunk text)
+data/training_leakage_free/
+
+# Human-review Excel workbooks (contain full prediction/reference text)
+reports/key_point_annotation.xlsx
+reports/factuality_annotation.xlsx
+
 # System/editor files
 .DS_Store
 Thumbs.db

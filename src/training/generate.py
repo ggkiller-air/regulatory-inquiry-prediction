@@ -19,7 +19,7 @@ def load_jsonl(path: Path) -> list[dict[str, Any]]:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate predictions with a LoRA adapter")
     parser.add_argument("--config", type=Path, default=Path("configs/qlora_qwen3_8b.yaml"))
-    parser.add_argument("--adapter", type=Path, required=True)
+    parser.add_argument("--adapter", type=Path, default=None, help="LoRA adapter 目录；不传则使用基座模型")
     parser.add_argument("--input", type=Path, required=True, help="SFT 格式 jsonl")
     parser.add_argument("--output", type=Path, required=True, help="预测结果 jsonl")
     parser.add_argument("--max-samples", type=int, default=None)
@@ -44,7 +44,8 @@ def main() -> None:
         dtype=torch.bfloat16,
         device_map={"": 0},
     )
-    model = PeftModel.from_pretrained(model, str(args.adapter))
+    if args.adapter is not None:
+        model = PeftModel.from_pretrained(model, str(args.adapter))
     model.eval()
 
     samples = load_jsonl(args.input)
